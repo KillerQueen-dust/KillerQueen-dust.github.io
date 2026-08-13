@@ -1,0 +1,73 @@
+[site]
+title = "循循守月"
+description = "PhD student at Southern University of Science and Technology."
+favicon = "/favicon.svg"
+last_updated = "August 13, 2026"
+
+[author]
+name = "刘斯宇(Siyu Liu)"
+title = "PhD Student"
+institution = "Southern University of Science and Technology(SUSTech)"
+avatar = "/ganyu.jpg"
+
+[social]
+email = "12531337@mail.sustech.edu.cn"
+location = "Shenzhen, China"
+location_url = "https://genshin.hoyoverse.com/en/"
+location_details = ["Yuehai Pavilion, Liyue, Teyvat"]
+google_scholar = "https://scholar.google.com/citations?hl=zh-CN&user=DEo5ztEAAAAJ"
+orcid = "https://orcid.org/0009-0002-8515-9573"
+github = "https://github.com/KillerQueen-dust"
+linkedin = "https://www.linkedin.com/in/siyu-ganyu/"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
+
+[i18n.labels]
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"

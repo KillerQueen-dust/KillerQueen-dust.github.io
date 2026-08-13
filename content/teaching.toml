@@ -1,0 +1,10 @@
+type = "card"
+title = "Teaching"
+description = "Courses I have taught or assisted with."
+
+[[items]]
+title = "Intelligent Ocean Exploration"
+subtitle = "Teaching Assistant"
+date = "2025 Spring"
+content = "Co-designed the course syllabus and provided hands-on guidance to undergraduates on building the AI module of a waterborne unmanned exploration vessel."
+tags = ["Undergraduate", "OCE210"]
