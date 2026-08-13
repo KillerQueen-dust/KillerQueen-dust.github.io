@@ -130,6 +130,15 @@ function getHighlightNames(locale?: string): string[] {
     const cleaned = cleanBibTeXString(name).trim();
     if (cleaned) {
       names.add(cleaned);
+
+      // Allow the profile name to contain a display name and a publication
+      // name, for example: "刘斯宇(Siyu Liu)". The profile keeps showing
+      // the full value, while BibTeX authors can still match "Siyu Liu".
+      const aliases = cleaned.match(/\(([^()]+)\)/g) || [];
+      aliases.forEach((alias) => {
+        const aliasName = alias.slice(1, -1).trim();
+        if (aliasName) names.add(aliasName);
+      });
     }
   };
 

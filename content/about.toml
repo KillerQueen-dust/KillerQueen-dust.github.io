@@ -3,9 +3,9 @@ title = "About"
 
 [profile]
 research_interests = [
-  "AI for Geoscience",
-  "Self-Supervised Learning of Seismic Waves",
-  "Physics-informed Neural Networks"
+  "AI for Science / Geoscience",
+  "Self-Supervised Learning & Foundation Models",
+  "Generative and Probabilistic Modeling for Scientific Data"
 ]
 
 [[sections]]
