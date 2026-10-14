@@ -1,8 +1,8 @@
 [site]
 title = "循循守月"
 description = "PhD student at Southern University of Science and Technology."
-favicon = "/favicon.svg"
-last_updated = "August 13, 2026"
+favicon = "/favicon.svg?v=cryo"
+last_updated = "October 14, 2026"
 
 [author]
 name = "刘斯宇(Siyu Liu)"
